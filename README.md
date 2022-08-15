@@ -10,3 +10,6 @@ this source just used to study how to write a simple apex glow&smooth-angle-aimb
 
 这份源码仅仅用于学习如何用C++写一个简单的apex发光透视和平滑内存自瞄。
 
+NOTICE: Driver files and source code are not open source, Please don't ask me for it, thanks.
+
+注意：驱动文件和源码不开源，请别找我索要，谢谢。

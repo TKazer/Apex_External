@@ -6,9 +6,9 @@
 
 namespace AimControl
 {
-	static float AimRange = 150;		// ×ÔÃé·¶Î§
-	static float AimRate = 0.04;		// ×ÔÃéËÙÂÊ
-	static float Recoil = 1.02;			// ºó×øÁ¦²ÎÊı
+	static float AimRange = 150;		// è‡ªç„èŒƒå›´
+	static float AimRate = 0.04;		// è‡ªç„é€Ÿç‡
+	static float Recoil = 1.02;		// åååŠ›å‚æ•°
 
 	Vec2 SmoothCalc(Vec2 CurrentAngle, Vec2 AimAngle, float AimRate)
 	{

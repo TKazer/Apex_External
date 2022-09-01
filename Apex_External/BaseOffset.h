@@ -3,23 +3,23 @@
 
 namespace Offset
 {
-	const DWORD64 ViewRender = 0x7598658;		// ¾ØÕóµØÖ·
-	const DWORD64 ViewMatrix = 0x11A210;		// ¾ØÕóÆ«ÒÆ
-	const DWORD64 LocalPlayer = 0x1E24348;		// ±¾ÈËµØÖ·
-	const DWORD64 cl_entitylist = 0x1A73F68;	// Êı×éµØÖ·
-	const DWORD	  LocalYaw = 0x24E4;			// ±¾µØYaw
-	const DWORD   LocalPitch = 0x24E0;			// ±¾µØPitch
+	const DWORD64 ViewRender = 0x7599758;		// çŸ©é˜µåœ°å€
+	const DWORD64 ViewMatrix = 0x11A210;		// çŸ©é˜µåç§»
+	const DWORD64 LocalPlayer = 0x1E25418;		// æœ¬äººåœ°å€
+	const DWORD64 cl_entitylist = 0x1A75038;	// æ•°ç»„åœ°å€
+	const DWORD	  LocalYaw = 0x24E4;			// æœ¬åœ°Yaw
+	const DWORD   LocalPitch = 0x24E0;			// æœ¬åœ°Pitch
 	struct EntityData_
 	{
-		const DWORD m_Pos = 0x14C;					// ×ø±ê
-		const DWORD Bone = 0xED0;					// ¹Ç÷ÀÆ«ÒÆ
-		const DWORD m_iTeamNum = 0x448;				// ÕóÓª
-		const DWORD m_iSignifierName = 0x580;		// ÀàÃû
-		const DWORD m_lifeState = 0x798;			// ÉúÃü×´Ì¬
-		const DWORD m_bleedoutState = 0x2688;		// µ¹µØ×´Ì¬
-		const DWORD m_iHealth = 0x438;				// ÑªÁ¿
-		const DWORD m_vecPunchWeapon_Angle = 0x23F8;// ºó×øÁ¦Y
-		const DWORD timeBase = 0x2050;				// ÊÀ½çÊ±¼ä
-		const DWORD lastVisibleTime = 0x1A44;		// ×îºó¿ÉÊÓÊ±¼ä
+		const DWORD m_Pos = 0x14C;					// åæ ‡
+		const DWORD Bone = 0xED0;					// éª¨éª¼åç§»
+		const DWORD m_iTeamNum = 0x448;				// é˜µè¥
+		const DWORD m_iSignifierName = 0x580;		// ç±»å
+		const DWORD m_lifeState = 0x798;			// ç”Ÿå‘½çŠ¶æ€
+		const DWORD m_bleedoutState = 0x2688;		// å€’åœ°çŠ¶æ€
+		const DWORD m_iHealth = 0x438;				// è¡€é‡
+		const DWORD m_vecPunchWeapon_Angle = 0x23F8;// åååŠ›Y
+		const DWORD timeBase = 0x2050;				// ä¸–ç•Œæ—¶é—´
+		const DWORD lastVisibleTime = 0x1A44;		// æœ€åå¯è§†æ—¶é—´
 	}EntityData;
 }
